@@ -7,7 +7,7 @@ int main() {
    do {
       cout << "Enter position to change arr 0-" << size << endl;
       cin >> position;
-   } while (position < 0 || position > size);
+   } while (position < 0 || position >= size);
    cout << "Enter value to set" << endl;
    int value;
    cin >> value;
